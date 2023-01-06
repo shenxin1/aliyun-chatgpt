@@ -13,7 +13,7 @@ class OpenAi:
         self.model = "text-davinci-003"
         self.url = "https://api.openai.com/v1/completions"
         # 替换为你的api_key <https://beta.openai.com/account/api-keys>
-        self.keys = "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"
+        self.keys = "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"
         # 这个是设置回答的长度,最大可以设置到4096 (免费额度为$18,该值影响你的用量)
         self.max_tokens = 1024
         # 值越高意味着模型将承担更多风险。对于更具创造性的应用程序，请尝试 0.9,建议0.5-0.6
